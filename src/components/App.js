@@ -1,13 +1,13 @@
-import React, {Component, useState} from "react";
+import React, { Component, useState } from "react";
 import "./../styles/App.css";
+import BtnClick from "./BtnClick";
 
 function App() {
   return (
     <div id="main">
-      // Do not alter the main div
+      <BtnClick />
     </div>
   );
 }
-
 
 export default App;
